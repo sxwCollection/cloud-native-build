@@ -1,5 +1,5 @@
-In this demo it is shown how to build a spring native image behind the firewall/proxy  
-what will be done for the build?  
+# In this demo it is shown how to build a spring native image behind the firewall/proxy  
+## what will be done for the build?  
 ->  
 1 the docker build image and the run image will be pulled by spring-maven-plugin  
 2 pakete-buildpacks will run for instance in this demo the paketo-buildpacks/ca-certificates   
@@ -12,7 +12,7 @@ are in use.
 3 the binaries of the dependencies which is defined in the buildpack.toml will be downloaded at build-time.    
 4 the problem was the download in step 3 is blocked by cooperation firewall.    
 
---> solution: download the binaries manually and configure them for buildpacks.    
+## --> solution: download the binaries manually and configure them for buildpacks.    
 this could be done with dependency-mapping.  
 the structure of the dependency-mapping should be:    
 1 the directories: bindings/dependency-mapping/    
