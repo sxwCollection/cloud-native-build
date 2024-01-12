@@ -14,7 +14,7 @@ are in use.
 
 --> solution: download the binaries manually and configure them for buildpacks.    
 this could be done with dependency-mapping.  
-the structure of the dependency-mapping should be:
+the structure of the dependency-mapping should be:    
 1 the directories: bindings/dependency-mapping/    
 2 the files in dependency-mappings dir: type with the content 'dependency-mapping' and the file with the name of sha-value and with the content of the binary location, this could be local like  
 file:///bindings/dependency-mapping/binaries/xxx.tar.gz or some reachable URI  
