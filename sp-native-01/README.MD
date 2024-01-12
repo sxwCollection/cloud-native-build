@@ -10,6 +10,7 @@ paketo-buildpacks/spring-boot
 and paketo-buildpacks/native-image
 are in use.  
 3 the binaries of the dependencies which is defined in the buildpack.toml will be downloaded at build-time.    
+(you can find dependencies in the git repo of buildpacks like: https://github.com/paketo-buildpacks/bellsoft-liberica)    
 4 the problem was the download in step 3 is blocked by cooperation firewall.    
 
 ## --> solution: download the binaries manually and configure them for buildpacks.    
